@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T18:22:07+00:00",
+  "title": "Design System: Restock",
+  "extensions": {
+    "colorMeta": {
+      "enamel": {
+        "role": "neutral",
+        "displayName": "Fridge Enamel",
+        "canonical": "oklch(95.5% 0.004 157.2)",
+        "cssVar": "--enamel",
+        "tonalRamp": [
+          "#0a0c0a",
+          "#232624",
+          "#404341",
+          "#5f6260",
+          "#808381",
+          "#a3a6a4",
+          "#c7cac8",
+          "#ecefed"
+        ]
+      },
+      "enamel-2": {
+        "role": "neutral",
+        "displayName": "Enamel Seam",
+        "canonical": "oklch(92.3% 0.007 160.1)",
+        "cssVar": "--enamel-2",
+        "tonalRamp": [
+          "#090c0a",
+          "#222624",
+          "#3f4341",
+          "#5e6260",
+          "#7f8481",
+          "#a2a6a3",
+          "#c6cac8",
+          "#ebf0ed"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Enamel White",
+        "canonical": "oklch(99.0% 0.002 145.6)",
+        "cssVar": "--white",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242524",
+          "#414241",
+          "#616161",
+          "#828282",
+          "#a4a5a4",
+          "#c8c9c8",
+          "#eeefee"
+        ]
+      },
+      "pad": {
+        "role": "secondary",
+        "displayName": "Canary Pad",
+        "canonical": "oklch(87.3% 0.140 93.5)",
+        "cssVar": "--pad",
+        "tonalRamp": [
+          "#1e0200",
+          "#3c1d00",
+          "#5b3c00",
+          "#7c5d00",
+          "#9f7f00",
+          "#c2a221",
+          "#e8c751",
+          "#ffed8d"
+        ]
+      },
+      "pad-under": {
+        "role": "secondary",
+        "displayName": "Pad Under-sheet",
+        "canonical": "oklch(85.6% 0.140 93.1)",
+        "cssVar": "--pad-under",
+        "tonalRamp": [
+          "#1e0100",
+          "#3c1d00",
+          "#5c3c00",
+          "#7d5d00",
+          "#9f7f00",
+          "#c3a21f",
+          "#e8c650",
+          "#ffed8d"
+        ]
+      },
+      "pad-edge": {
+        "role": "secondary",
+        "displayName": "Pad Edge",
+        "canonical": "oklch(82.3% 0.141 92.6)",
+        "cssVar": "--pad-edge",
+        "tonalRamp": [
+          "#1f0100",
+          "#3d1d00",
+          "#5c3c00",
+          "#7d5c00",
+          "#a07e00",
+          "#c4a21d",
+          "#e9c64f",
+          "#ffed8d"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Ballpoint Blue",
+        "canonical": "oklch(38.0% 0.137 265.9)",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "#040044",
+          "#071766",
+          "#1f3a8a",
+          "#3c5bae",
+          "#5b7ed4",
+          "#7ca2fb",
+          "#9fc6ff",
+          "#c9edff"
+        ]
+      },
+      "ink-2": {
+        "role": "primary",
+        "displayName": "Faded Ballpoint",
+        "canonical": "oklch(42.6% 0.119 268.0)",
+        "cssVar": "--ink-2",
+        "tonalRamp": [
+          "#03003c",
+          "#0e1b5d",
+          "#273b80",
+          "#445ca4",
+          "#647ec9",
+          "#85a2f0",
+          "#a8c6ff",
+          "#ccecff"
+        ]
+      },
+      "ink-3": {
+        "role": "primary",
+        "displayName": "Dry Ballpoint",
+        "canonical": "oklch(50.7% 0.095 269.1)",
+        "cssVar": "--ink-3",
+        "tonalRamp": [
+          "#030132",
+          "#131f53",
+          "#2e3e74",
+          "#4b5e97",
+          "#6b80bc",
+          "#8da3e2",
+          "#b0c7ff",
+          "#d4edff"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule Blue",
+        "canonical": "oklch(78.5% 0.049 260.2)",
+        "cssVar": "--rule",
+        "tonalRamp": [
+          "#020a1f",
+          "#17253d",
+          "#33425c",
+          "#51627d",
+          "#7183a0",
+          "#93a6c4",
+          "#b7caea",
+          "#dcf0ff"
+        ]
+      },
+      "pencil": {
+        "role": "neutral",
+        "displayName": "Pencil",
+        "canonical": "oklch(48.7% 0.020 259.4)",
+        "cssVar": "--pencil",
+        "tonalRamp": [
+          "#070b13",
+          "#1f252f",
+          "#3c424d",
+          "#5b626d",
+          "#7b838e",
+          "#9ea6b2",
+          "#c2cad6",
+          "#e7effc"
+        ]
+      },
+      "magnet": {
+        "role": "tertiary",
+        "displayName": "Magnet Red",
+        "canonical": "oklch(55.5% 0.184 28.5)",
+        "cssVar": "--magnet",
+        "tonalRamp": [
+          "#3c0000",
+          "#630000",
+          "#8a0000",
+          "#b21e18",
+          "#da493d",
+          "#ff6f5f",
+          "#ff9582",
+          "#ffd0c1"
+        ]
+      },
+      "magnet-ink": {
+        "role": "tertiary",
+        "displayName": "Magnet Ink",
+        "canonical": "oklch(48.0% 0.161 28.5)",
+        "cssVar": "--magnet-ink",
+        "tonalRamp": [
+          "#370000",
+          "#5d0000",
+          "#830000",
+          "#aa2f26",
+          "#d15448",
+          "#f97869",
+          "#ff9d8c",
+          "#ffd0c1"
+        ]
+      },
+      "demo": {
+        "role": "demo",
+        "displayName": "Demo Navy",
+        "canonical": "oklch(25.0% 0.030 270.0)",
+        "cssVar": "--demo",
+        "tonalRamp": [
+          "#070a18",
+          "#1f2434",
+          "#3c4152",
+          "#5a6173",
+          "#7b8295",
+          "#9ea5b8",
+          "#c1c9dd",
+          "#e7eeff"
+        ]
+      },
+      "demo-2": {
+        "role": "demo",
+        "displayName": "Demo Navy Raised",
+        "canonical": "oklch(30.0% 0.034 270.0)",
+        "cssVar": "--demo-2",
+        "tonalRamp": [
+          "#060a19",
+          "#1f2436",
+          "#3b4154",
+          "#5a6175",
+          "#7a8297",
+          "#9da5bb",
+          "#c0c9e0",
+          "#e5eeff"
+        ]
+      },
+      "demo-ink": {
+        "role": "demo",
+        "displayName": "Demo Chalk",
+        "canonical": "oklch(94.0% 0.010 267.4)",
+        "cssVar": "--demo-ink",
+        "tonalRamp": [
+          "#090b0f",
+          "#23252a",
+          "#404247",
+          "#5f6167",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9d0",
+          "#ebeef5"
+        ]
+      },
+      "demo-ink-2": {
+        "role": "demo",
+        "displayName": "Demo Chalk Faded",
+        "canonical": "oklch(79.2% 0.025 267.9)",
+        "cssVar": "--demo-ink-2",
+        "tonalRamp": [
+          "#070b16",
+          "#202532",
+          "#3c4250",
+          "#5b6170",
+          "#7c8292",
+          "#9ea5b5",
+          "#c2c9da",
+          "#e7eeff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "calm": {
+        "displayName": "Calm",
+        "purpose": "The calm-state line on the blank sheet; largest type in the product."
+      },
+      "decision": {
+        "displayName": "Decision",
+        "purpose": "The ask on the top pad sheet."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads on the enamel."
+      },
+      "sentence": {
+        "displayName": "Sentence",
+        "purpose": "Each rule written as a sentence; blanks and chips step to 700."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Restock in the header."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Pantry item names and handled titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reasons, answer labels, link buttons."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Date line, budget line, counts."
+      },
+      "fine": {
+        "displayName": "Fine",
+        "purpose": "Sub-lines, why-lines, sheet meta, fine print, the Needs you pill."
+      },
+      "_family": {
+        "displayName": "Hanken Grotesk Variable",
+        "purpose": "Only face. Self-hosted via @fontsource-variable/hanken-grotesk; font-variant-numeric: tabular-nums on :root; weights used 450-750."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper-lift",
+        "value": "0 1px 1px rgba(31, 58, 138, 0.08), 0 6px 18px -8px rgba(31, 58, 138, 0.28)",
+        "purpose": "Top pad sheet; rules-off notice uses the same at 0.25."
+      },
+      {
+        "name": "under-sheet",
+        "value": "0 1px 1px rgba(31, 58, 138, 0.08)",
+        "purpose": "Offset sheets beneath the top sheet."
+      },
+      {
+        "name": "magnet-contact",
+        "value": "0 2px 4px -1px rgba(60, 20, 20, 0.3)",
+        "purpose": "The magnet disc."
+      },
+      {
+        "name": "demo-bar",
+        "value": "0 -8px 24px -12px rgba(15, 20, 35, 0.5)",
+        "purpose": "Fixed demo bar, casting upward."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "House easing (--ease-out) for every transition and the tear."
+      },
+      {
+        "name": "state",
+        "value": "160ms",
+        "purpose": "Answer hover/press, switch fill, demo button hover."
+      },
+      {
+        "name": "switch-knob",
+        "value": "180ms",
+        "purpose": "Switch knob travel and colour."
+      },
+      {
+        "name": "gauge",
+        "value": "240ms transform scaleX",
+        "purpose": "Rule-line gauge fill; transform only."
+      },
+      {
+        "name": "tear-off",
+        "value": "300ms; keyframes 0% none, 28% translateY(-3px) rotate(-1.6deg), 100% translate(-36px,-140px) rotate(-9deg) opacity 0",
+        "purpose": "Signature: answering tears the top sheet off along its perforation, revealing the real next sheet or the blank pad already rendered beneath. Focus moves to the revealed heading."
+      },
+      {
+        "name": "pad-height",
+        "value": "240ms height via Web Animations, cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "After a tear the pad eases to its new height so the pantry never jumps."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transitions 1ms; tear becomes 140ms linear fade; pad-height animation skipped",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop",
+        "value": "900px",
+        "purpose": "Two columns (440px app, 340px demo panel); demo bar becomes a sticky side panel."
+      }
+    ],
+    "gauge": {
+      "densities": [
+        0.36,
+        0.5,
+        0.66,
+        0.82,
+        1.0
+      ],
+      "densityBands": "supply ratio >0.8, >0.6, >0.4, >0.2, <=0.2 of item interval",
+      "weights": {
+        "1px": ">7 days left",
+        "2px": "<=7 days",
+        "3px": "<=3 days"
+      },
+      "budgetGauge": "2px, full ink"
+    },
+    "perforation": "mask: radial-gradient(circle 2.5px at 7px 0, transparent 98%, #000) top left / 14px 6px repeat-x, linear-gradient(#000,#000) 0 6px / 100% calc(100% - 6px) no-repeat"
+  },
+  "components": [
+    {
+      "name": "Answer (recommended)",
+      "kind": "button",
+      "refersTo": "answer-primary",
+      "description": "The first answer on a pad sheet: outlined in ink at 2.5px, 750 weight. No filled buttons exist.",
+      "html": "<div class=\"ds-sheet-bg\"><button class=\"ds-answer ds-answer-primary\">Buy the 12 oz at $11.49</button></div>",
+      "css": ".ds-sheet-bg{background:var(--pad,#f4d35e);padding:16px;} .ds-answer{min-height:48px;padding:10px 16px;border:1.5px solid var(--ink,#1f3a8a);border-radius:6px;background:transparent;color:var(--ink,#1f3a8a);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-weight:600;font-size:.9375rem;text-align:left;display:flex;align-items:center;width:100%;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1),transform 160ms cubic-bezier(.16,1,.3,1);} .ds-answer:hover{background:rgba(31,58,138,.08);} .ds-answer:active{transform:translateY(1px);} .ds-answer:focus-visible{outline:2px solid var(--ink,#1f3a8a);outline-offset:2px;} .ds-answer-primary{border-width:2.5px;font-weight:750;}"
+    },
+    {
+      "name": "Answer",
+      "kind": "button",
+      "refersTo": "answer",
+      "description": "Secondary answers on a pad sheet: 1.5px ink outline, 600 weight.",
+      "html": "<div class=\"ds-sheet-bg\"><button class=\"ds-answer\">Wait a week for the usual size</button></div>",
+      "css": ".ds-sheet-bg{background:var(--pad,#f4d35e);padding:16px;} .ds-answer{min-height:48px;padding:10px 16px;border:1.5px solid var(--ink,#1f3a8a);border-radius:6px;background:transparent;color:var(--ink,#1f3a8a);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-weight:600;font-size:.9375rem;text-align:left;display:flex;align-items:center;width:100%;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1),transform 160ms cubic-bezier(.16,1,.3,1);} .ds-answer:hover{background:rgba(31,58,138,.08);} .ds-answer:active{transform:translateY(1px);} .ds-answer:focus-visible{outline:2px solid var(--ink,#1f3a8a);outline-offset:2px;}"
+    },
+    {
+      "name": "Pad sheet",
+      "kind": "card",
+      "refersTo": "pad-sheet",
+      "description": "Signature: a canary sheet with a mask-cut perforated top edge, offset under-sheets and a magnet disc. Answering tears it off.",
+      "html": "<div class=\"ds-pad\"><div class=\"ds-magnet\"></div><div class=\"ds-under ds-under-1\"></div><div class=\"ds-under ds-under-2\"></div><div class=\"ds-sheet\"><h3>Your usual coffee is out of stock. The 12 oz is $2 more.</h3><p>Priced 9% above last time, outside your 5% rule.</p><div class=\"ds-answers\"><button class=\"ds-a ds-a-p\">Buy the 12 oz</button><button class=\"ds-a\">Wait a week</button></div></div></div>",
+      "css": ".ds-pad{position:relative;margin:20px 8px 16px;font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;color:var(--ink,#1f3a8a);} .ds-sheet{position:relative;z-index:2;background:var(--pad,#f4d35e);padding:30px 22px 22px;border-radius:2px 2px 6px 6px;box-shadow:0 1px 1px rgba(31,58,138,.08),0 6px 18px -8px rgba(31,58,138,.28);-webkit-mask:radial-gradient(circle 2.5px at 7px 0,transparent 98%,#000) top left/14px 6px repeat-x,linear-gradient(#000,#000) 0 6px/100% calc(100% - 6px) no-repeat;mask:radial-gradient(circle 2.5px at 7px 0,transparent 98%,#000) top left/14px 6px repeat-x,linear-gradient(#000,#000) 0 6px/100% calc(100% - 6px) no-repeat;} .ds-sheet h3{margin:0;font-size:1.375rem;line-height:1.25;font-weight:650;letter-spacing:-.015em;} .ds-sheet p{margin:8px 0 0;font-size:.9375rem;color:var(--ink-2,#33498f);} .ds-under{position:absolute;left:0;right:0;height:100%;border-radius:2px 2px 6px 6px;box-shadow:0 1px 1px rgba(31,58,138,.08);} .ds-under-1{top:5px;transform:translateX(3px);z-index:1;background:var(--pad-under,#efcd57);} .ds-under-2{top:10px;transform:translateX(-2px);z-index:0;background:var(--pad-edge,#e5c24a);} .ds-magnet{position:absolute;z-index:3;top:-11px;left:50%;width:26px;height:26px;margin-left:-13px;border-radius:50%;background:var(--magnet,#c8372d);box-shadow:0 2px 4px -1px rgba(60,20,20,.3);} .ds-answers{display:grid;gap:8px;margin-top:20px;} .ds-a{min-height:48px;padding:10px 16px;border:1.5px solid var(--ink,#1f3a8a);border-radius:6px;background:transparent;color:inherit;font:inherit;font-weight:600;font-size:.9375rem;text-align:left;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1);} .ds-a:hover{background:rgba(31,58,138,.08);} .ds-a:focus-visible{outline:2px solid var(--ink,#1f3a8a);outline-offset:2px;} .ds-a-p{border-width:2.5px;font-weight:750;}"
+    },
+    {
+      "name": "Pantry row with rule-line gauge",
+      "kind": "custom",
+      "refersTo": "link-button",
+      "description": "Signature: supply drawn as the rule line itself; one ink, density and weight rise as the item runs low.",
+      "html": "<ul class=\"ds-pantry\"><li><button class=\"ds-row\"><span class=\"ds-name\">Coffee beans</span><span class=\"ds-days\">3 days</span><span class=\"ds-sub\">Whole bean, 2 lb · Corner Market</span></button><div class=\"ds-gauge\"><span style=\"transform:scaleX(.14);height:3px;opacity:1\"></span></div></li><li><button class=\"ds-row\"><span class=\"ds-name\">Paper towels</span><span class=\"ds-days\">24 days</span><span class=\"ds-sub\">12 rolls · Bulk Club</span></button><div class=\"ds-gauge\"><span style=\"transform:scaleX(.8);height:1px;opacity:.5\"></span></div></li></ul>",
+      "css": ".ds-pantry{list-style:none;margin:0;padding:0 16px;background:var(--enamel,#eef1ef);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:var(--ink,#1f3a8a);} .ds-row{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:2px 12px;padding:12px 0 9px;border:0;background:none;text-align:left;color:inherit;font:inherit;cursor:pointer;} .ds-row:hover .ds-name{text-decoration:underline;text-decoration-color:var(--rule,#a7bad9);text-underline-offset:4px;} .ds-row:focus-visible{outline:2px solid var(--ink,#1f3a8a);outline-offset:2px;border-radius:3px;} .ds-name{font-size:1rem;font-weight:560;} .ds-sub{grid-column:1;font-size:.8125rem;color:var(--ink-2,#33498f);} .ds-days{grid-column:2;grid-row:1/span 2;align-self:center;font-size:.9375rem;font-weight:560;} .ds-gauge{position:relative;height:3px;display:flex;align-items:center;} .ds-gauge::before{content:'';position:absolute;left:0;right:0;height:1px;background:var(--rule,#a7bad9);} .ds-gauge>span{position:relative;display:block;width:100%;background:var(--ink,#1f3a8a);border-radius:2px;transform-origin:left center;transition:transform 240ms cubic-bezier(.16,1,.3,1);}"
+    },
+    {
+      "name": "Link button",
+      "kind": "nav",
+      "refersTo": "link-button",
+      "description": "The only navigation: ink text with a rule-blue underline that darkens on hover.",
+      "html": "<button class=\"ds-link\">Rules</button>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 4px;border:0;background:none;color:var(--ink,#1f3a8a);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-weight:600;font-size:.9375rem;text-decoration:underline;text-decoration-color:var(--rule,#a7bad9);text-underline-offset:5px;text-decoration-thickness:1.5px;cursor:pointer;} .ds-link:hover{text-decoration-color:var(--ink,#1f3a8a);} .ds-link:focus-visible{outline:2px solid var(--ink,#1f3a8a);outline-offset:2px;border-radius:3px;}"
+    },
+    {
+      "name": "Rule sentence with blank and toggle chips",
+      "kind": "input",
+      "refersTo": "rule-blank",
+      "description": "Settings as sentences: underlined editable blanks that fill canary on focus, toggle chips that strike through when off.",
+      "html": "<p class=\"ds-sentence\">Spend up to <span class=\"ds-blank\">$<input type=\"number\" value=\"400\" aria-label=\"Monthly limit\" style=\"width:3ch\"></span> a month.</p><p class=\"ds-sentence\">Always ask before <button class=\"ds-chip\" aria-pressed=\"true\">substitutes</button>, <button class=\"ds-chip\" aria-pressed=\"false\">new stores</button>, and <button class=\"ds-chip\" aria-pressed=\"true\">bigger quantities</button>.</p>",
+      "css": ".ds-sentence{margin:0;padding:18px 16px;border-bottom:1px solid var(--rule,#a7bad9);background:var(--enamel,#eef1ef);color:var(--ink,#1f3a8a);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums;font-size:1.25rem;line-height:1.6;font-weight:560;letter-spacing:-.01em;} .ds-blank{display:inline-flex;align-items:baseline;border-bottom:2px solid var(--ink,#1f3a8a);padding:0 3px;font-weight:700;} .ds-blank input{border:0;padding:0;background:transparent;color:inherit;font:inherit;font-weight:700;-moz-appearance:textfield;} .ds-blank input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;} .ds-blank input:focus-visible{outline:none;} .ds-blank:focus-within{background:var(--pad,#f4d35e);} .ds-chip{display:inline;border:0;background:none;padding:0 2px;color:var(--ink,#1f3a8a);font:inherit;font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px;cursor:pointer;} .ds-chip[aria-pressed='false']{color:var(--ink-3,#4f629c);font-weight:500;text-decoration:line-through;text-decoration-thickness:1.5px;} .ds-chip:focus-visible{outline:2px solid var(--ink,#1f3a8a);outline-offset:2px;border-radius:3px;}"
+    },
+    {
+      "name": "Needs you flag",
+      "kind": "chip",
+      "refersTo": "flag-pill",
+      "description": "A canary pill in a pantry row where days-left would sit.",
+      "html": "<span class=\"ds-flag\">Needs you</span>",
+      "css": ".ds-flag{display:inline-block;font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-size:.8125rem;font-weight:650;padding:2px 8px;border-radius:999px;background:var(--pad,#f4d35e);color:var(--ink,#1f3a8a);}"
+    },
+    {
+      "name": "Switch",
+      "kind": "input",
+      "refersTo": "switch",
+      "description": "Ink-outlined pill switch; on, it fills with ink and the knob turns canary.",
+      "html": "<label class=\"ds-switch\"><span>Never substitute this</span><input type=\"checkbox\" role=\"switch\" checked></label>",
+      "css": ".ds-switch{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:44px;color:var(--ink,#1f3a8a);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-size:.9375rem;cursor:pointer;} .ds-switch input{appearance:none;width:40px;height:24px;margin:0;flex:none;border-radius:999px;border:1.5px solid var(--ink,#1f3a8a);background:transparent;position:relative;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1);} .ds-switch input::after{content:'';position:absolute;top:3px;left:3px;width:15px;height:15px;border-radius:50%;background:var(--ink,#1f3a8a);transition:transform 180ms cubic-bezier(.16,1,.3,1),background 180ms cubic-bezier(.16,1,.3,1);} .ds-switch input:checked{background:var(--ink,#1f3a8a);} .ds-switch input:checked::after{transform:translateX(16px);background:var(--pad,#f4d35e);} .ds-switch input:focus-visible{outline:2px solid var(--ink,#1f3a8a);outline-offset:2px;}"
+    },
+    {
+      "name": "Handled log line",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Bought lines in pencil with a pencil strike-through; blocked lines in magnet ink with the amount struck through.",
+      "html": "<ul class=\"ds-handled\"><li class=\"bought\"><span class=\"ds-mark\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 6 9 17l-5-5\"/></svg></span><span class=\"ds-title\">Bought dish soap</span><span class=\"ds-amt\">$6.49</span><span class=\"ds-why\"><span class=\"ds-when\">Today · </span>Same size and store, price within 5%.</span></li><li class=\"blocked\"><span class=\"ds-mark\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m4.9 4.9 14.2 14.2\"/></svg></span><span class=\"ds-title\">Blocked a $240 order</span><span class=\"ds-amt\">$240.00</span><span class=\"ds-why\"><span class=\"ds-when\">Today · </span>Over your $150 single-order limit. The spend lock refused it.</span></li></ul>",
+      "css": ".ds-handled{list-style:none;margin:0;padding:0 16px;background:var(--enamel,#eef1ef);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-variant-numeric:tabular-nums;} .ds-handled li{display:grid;grid-template-columns:22px minmax(0,1fr) auto;gap:2px 10px;padding:12px 0;border-bottom:1px solid var(--enamel-2,#e2e7e4);} .ds-mark{grid-row:1/span 2;padding-top:2px;color:var(--ink-2,#33498f);} .ds-title{font-size:.9375rem;font-weight:560;color:var(--pencil,#59606b);} .ds-amt{font-size:.9375rem;color:var(--pencil,#59606b);} .ds-why{grid-column:2/span 2;font-size:.8125rem;color:var(--ink-2,#33498f);} .ds-when{color:var(--ink-3,#4f629c);} .bought .ds-title{text-decoration:line-through;text-decoration-color:rgba(89,96,107,.7);text-decoration-thickness:1.5px;} .blocked .ds-title,.blocked .ds-mark,.blocked .ds-amt{color:var(--magnet-ink,#a52a22);} .blocked .ds-amt{text-decoration:line-through;}"
+    },
+    {
+      "name": "Demo buttons",
+      "kind": "button",
+      "refersTo": "demo-button-strong",
+      "description": "The demo layer's own material: chalk on navy. Never used inside the product.",
+      "html": "<div class=\"ds-demo\"><span class=\"ds-demo-label\">Demo<small>Sample data</small></span><button class=\"ds-demo-btn\">Skip a week</button><button class=\"ds-demo-btn ds-strong\">Try to break it</button></div>",
+      "css": ".ds-demo{display:flex;align-items:center;gap:8px;padding:10px 16px;background:var(--demo,#1c2130);color:var(--demo-ink,#e8ebf2);font-family:'Hanken Grotesk Variable','Hanken Grotesk',ui-sans-serif,system-ui,sans-serif;font-size:.875rem;} .ds-demo-label{font-weight:700;letter-spacing:.02em;margin-right:auto;display:flex;flex-direction:column;line-height:1.2;} .ds-demo-label small{font-weight:450;color:var(--demo-ink-2,#b4bbcc);letter-spacing:0;} .ds-demo-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:6px;border:1px solid #454d66;background:var(--demo-2,#272d3f);color:var(--demo-ink,#e8ebf2);font:inherit;font-weight:600;white-space:nowrap;cursor:pointer;transition:background 160ms cubic-bezier(.16,1,.3,1);} .ds-demo-btn:hover{background:#323a50;} .ds-demo-btn:focus-visible{outline:2px solid var(--demo-ink,#e8ebf2);outline-offset:2px;} .ds-strong{background:var(--demo-ink,#e8ebf2);color:var(--demo,#1c2130);border-color:var(--demo-ink,#e8ebf2);} .ds-strong:hover{background:#fff;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Fridge List Pad",
+    "overview": "Restock is a canary list pad stuck to a cool enamel fridge door by a single red magnet, written on in one ballpoint blue. The normal state is a blank ruled sheet that says everything is stocked; when a decision needs the household, it arrives as one sheet on top of the pad, already worked out, with outlined answers to tick. Answering tears that sheet off along its perforation and reveals whatever sits beneath. Everything below the pad (the pantry, what was handled) is written straight onto the enamel in the same ink, on pale-blue rule lines.\n\nThe world is quiet and physical rather than app-like. It uses one grotesk, one ink family, one paper colour and one warning red, and it draws information instead of colour-coding it: supply is the rule line itself, laid down in ink at a density and weight that rise as an item runs low. Handled things get a pencil strike-through, like a real list. The system refuses the delivery-app grid (product thumbnails, green buy buttons) and the chat window; there are no avatars, bubbles, cards-in-a-grid, or imagery.\n\nA separate dark material, the demo layer, sits outside the fridge entirely. It is where evaluators skip time and try to break the agent, and it must never be read as part of the product.",
+    "keyCharacteristics": [
+      "Cool fridge-enamel ground; canary pad sheets with a mask-cut perforated top edge, offset under-sheets, and a flat red magnet disc.",
+      "Ballpoint blue is the only ink, in three strengths.",
+      "Supply drawn as rule-line gauges: one ink, five densities, weights 1/2/3px rising with urgency.",
+      "Pencil-grey strike-through for bought items; magnet red only for blocked and never states.",
+      "One self-hosted variable grotesk (Hanken Grotesk) with tabular figures everywhere.",
+      "Answers are outlined buttons, recommended first at a heavier stroke.",
+      "Rules are written as sentences with underlined blanks and strike-through toggles.",
+      "Signature motion: the tear-off."
+    ],
+    "rules": [
+      {
+        "name": "The One Ink Rule",
+        "body": "Every mark the product makes is ballpoint blue at one of three strengths, or pencil for what is done. No second hue ever carries text or data.",
+        "section": "colors"
+      },
+      {
+        "name": "The Magnet Rule",
+        "body": "Red appears in exactly two forms: the magnet disc that holds a sheet, and magnet-ink text for blocked or never outcomes. If something is merely urgent, it gets heavier ink, not red.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Materials Rule",
+        "body": "The demo layer uses only the demo tokens and the product never uses them. A viewer must be able to tell at a glance which layer they are touching.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Pen Rule",
+        "body": "One family, variable weight only. Emphasis is a weight step, never a new face, italic, or uppercase.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Figures are tabular everywhere, set once on the root. Never turn it off for a component.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper-Only Lift Rule",
+        "body": "A surface casts a shadow only if it is a physical object on the fridge. Rows, sentences and log lines are ink on enamel and stay flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** write every mark in ballpoint blue (ink, ink-2, ink-3), with pencil reserved for bought, struck-through items.",
+      "**Do** draw quantities as rule-line gauges using one ink, the five opacity densities and the 1/2/3px weights, animated with `transform: scaleX` only.",
+      "**Do** put a decision on a canary sheet held by the magnet, with the recommended answer first at a 2.5px outline.",
+      "**Do** write settings as sentences with underlined blanks and strike-through toggle chips.",
+      "**Do** keep tabular figures on for every number.",
+      "**Do** give every tear, height change and state transition a reduced-motion path (the tear becomes a 140ms fade).",
+      "**Do** keep the demo layer on demo tokens only, visibly a different material."
+    ],
+    "donts": [
+      "**Don't** colour-code supply or status (no green/amber/red scales); urgency is heavier and denser ink.",
+      "**Don't** use magnet red for anything but the magnet disc and blocked or never outcomes.",
+      "**Don't** introduce filled primary buttons, product thumbnails, a card grid, or green buy buttons.",
+      "**Don't** add a chat window, message bubbles, or an assistant avatar.",
+      "**Don't** add a second typeface, italics, or uppercase labels.",
+      "**Don't** give flat, written-on-enamel content (rows, sentences, log lines) a shadow or a card.",
+      "**Don't** let demo navy or chalk appear inside the product column, or product canary and ink inside the demo layer."
+    ]
+  }
+}

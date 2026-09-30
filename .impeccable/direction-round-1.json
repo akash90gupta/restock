@@ -1,0 +1,125 @@
+{
+  "title": "Choose Restock's visual world",
+  "question": "The roll landed on the fridge-door list pad. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Fridge List Pad",
+      "kicker": "THE ROLL",
+      "lineage": "the magnetic list pad every household keeps on the fridge",
+      "thesis": "The household's oldest shared interface, kept for you: Restock writes the list and only leaves a note when it needs you.",
+      "palette": ["#EEF1EF", "#F4D35E", "#1F3A8A", "#9AB0D6", "#C8372D"],
+      "materials": ["fridge enamel ground", "canary pad sheet", "ballpoint-blue ink", "pale-blue rule lines", "pencil strike-through"],
+      "viewport": "Enamel ground; one canary sheet at the top holding the single decision that needs you; below it the pantry as a ruled list whose rule lines double as supply gauges; handled lines struck through in pencil with their reason.",
+      "risk": "Tips into skeuomorphic kitsch if the paper gets texture, shadows, or handwriting fonts; it must stay flat, printed, and precise.",
+      "raised": [
+        {"from": "Darkroom exposure record", "raise": "Supply is drawn in one ink at five densities; no traffic-light greens, ambers, or reds for stock levels."},
+        {"from": "Star atlas", "raise": "Urgency is carried by line weight on the rule, not by added color."},
+        {"from": "Alphabet storm", "raise": "When nothing needs you, the sheet is blank except one display-size line: Everything's stocked."},
+        {"from": "Industrial quote grammar", "raise": "Zones are named for exactly what they are: Needs you, Pantry, Handled. No clever headers."},
+        {"from": "Monochrome product marketing", "raise": "Every handled line carries its proof: the rule that allowed it."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "The Countertop Appliance",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "1960s German household appliance and calculator controls",
+      "thesis": "Restock as a quiet appliance on the counter: few controls, precise scales, one indicator that lights only when it needs you.",
+      "palette": ["#D9D9D4", "#2A2A28", "#F07F1E", "#6E8B3D"],
+      "materials": ["matte housing grey", "round keys", "printed dial scales", "one orange indicator"],
+      "viewport": "A single housing: a dial-scale row per item showing days left, one orange-lit panel only when a decision waits, rules set on physical-looking sliders.",
+      "risk": "Also the direction most calm product UIs land on; a knowing homage that can read familiar."
+    },
+    {
+      "id": "challenger-split-flap",
+      "label": "The Supply Board",
+      "verdict": "competitive",
+      "lineage": "rail concourse split-flap departure boards",
+      "thesis": "The pantry as a departures board: every item a row ranked by days left, flaps clacking over when something is reordered.",
+      "palette": ["#141414", "#F1F1EC", "#F2A900", "#B3372E"],
+      "materials": ["matte black flaps", "white painted letters", "amber row lamps", "brushed steel frame"],
+      "viewport": "A black board of item rows sorted by days left; rows that need you lit amber; a reorder flips the row's flaps to its new date.",
+      "case": "Fuses cleanly on clarity: items ranked by days left read instantly. Loses on audience identification: a kitchen is not a concourse, and a full board risks the busy feel you ruled out.",
+      "risk": "Reads as a transit gimmick, and constant flipping fights the calm default.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse-hero.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Exposure Record",
+      "verdict": "declined",
+      "lineage": "darkroom printer's exposure record",
+      "thesis": "Stock levels as zones on an eleven-step tonal ramp.",
+      "palette": ["#1A1A1A", "#8C8C8C", "#E6E6E6", "#C0369A"],
+      "materials": ["translucent sheets", "hatch density"],
+      "viewport": "Overlapping sheets, each item a hatched zone.",
+      "case": "Fuses poorly: households do not identify with darkroom notation, and hatching obscures a simple task.",
+      "kept": "One tonal ramp carries all supply levels.",
+      "risk": "Unreadable to anyone outside photography."
+    },
+    {
+      "id": "challenger-star-atlas",
+      "label": "Star Atlas",
+      "verdict": "declined",
+      "lineage": "celestial star charts",
+      "thesis": "Items as stars, urgency as magnitude.",
+      "palette": ["#12203F", "#F3F1EA", "#D9412E"],
+      "materials": ["navy chart ground", "magnitude dots"],
+      "viewport": "A chart of household items plotted by days left.",
+      "case": "Fuses poorly: a pantry is not a sky; the metaphor costs clarity.",
+      "kept": "Mark weight, not color, carries importance.",
+      "risk": "Decorative, not operational."
+    },
+    {
+      "id": "challenger-alphabet-storm",
+      "label": "Alphabet Storm",
+      "verdict": "declined",
+      "lineage": "surreal typographic weather",
+      "thesis": "Words gather into weather as items run low.",
+      "palette": ["#FFFFFF", "#111111", "#B8BEC6"],
+      "materials": ["monumental grotesk", "letter particles"],
+      "viewport": "One word-weather event per screen.",
+      "case": "Fuses poorly: motion-heavy and far from the task.",
+      "kept": "One display-size sentence owns the calm state.",
+      "risk": "Spectacle over task."
+    },
+    {
+      "id": "challenger-quote-grammar",
+      "label": "Stockroom Tags",
+      "verdict": "declined",
+      "lineage": "industrial streetwear labeling",
+      "thesis": "Every zone labeled with its literal quoted name.",
+      "palette": ["#FFFFFF", "#111111", "#FF6A13"],
+      "materials": ["hazard stripes", "zip-tie tags"],
+      "viewport": "Label plates stacked like stenciled crates.",
+      "case": "Fuses poorly: loud and ironic where the product should be calm and trusted.",
+      "kept": "Zones named for exactly what they are.",
+      "risk": "Fashion irony in a household tool."
+    },
+    {
+      "id": "challenger-monochrome",
+      "label": "Monochrome Proof",
+      "verdict": "declined",
+      "lineage": "neutral software marketing pages",
+      "thesis": "Every claim paired with the detail that proves it.",
+      "palette": ["#FAFAFA", "#111111", "#3B5BDB"],
+      "materials": ["neutral scale", "framed screenshots"],
+      "viewport": "Claim, then proof, in a strict grid.",
+      "case": "Fuses poorly: a marketing grammar, not a household tool.",
+      "kept": "Every handled line carries its proof.",
+      "risk": "Generic SaaS."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code"},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A grocery-app list, executed impeccably.",
+    "palette": ["#FFFFFF", "#1A1A1A", "#0AAD0A"],
+    "materials": ["clean list rows", "product thumbnails", "green primary buttons"],
+    "viewport": "A white list of items with thumbnails and a green action button, the arrangement every delivery app uses.",
+    "risk": "Indistinguishable from the delivery apps by design."
+  },
+  "steer": true
+}
