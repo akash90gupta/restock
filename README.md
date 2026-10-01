@@ -1,5 +1,7 @@
 # restock.ai
 
+![restock.ai: your household essentials, always stocked. The pad on a laptop asks about an out-of-stock coffee; on a phone, everything's stocked.](docs/banner.png)
+
 **Your household essentials, always stocked.** restock.ai reorders the routine things on its own, inside rules you set, and asks you only when the answer should be yours.
 
 > **A working demo with a sample household.** Nothing is really bought. No accounts, no sign-up, and no API key needed to try it.
